@@ -9,7 +9,7 @@ Welcome to CodeWalnut's front-end technical test using React and the [PokeAPI](h
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/CW-Codewalnut/codewalnut-front-end-tech-test.git
+git clone https://github.com/rhythm199/codewlnut-pokemon-app.git
 ```
 
 ### 2. Install Dependencies
@@ -112,22 +112,35 @@ Build an advanced **Pokémon team management app** that allows users to create a
 
 ---
 
-## Submission Guidelines
-
-- Fork this repository and submit your solution via a **GitHub repository** link (preferred) or a **zip file**.
-- Make sure to include a **README** in your submission with:
-  - Setup instructions.
-  - Explanation of your approach.
-  - Any challenges or trade-offs you encountered.
+## Features
+- Senior-Level Project: Successfully completed a comprehensive web development project covering multiple aspects.
+- Pokémon Listing Pages: Designed and implemented pages displaying Pokémon, accessible via the navigation bar.
+- Mock User Authentication: Developed a simulated login system for user interaction.
+- Team Builder: Enabled users to create teams with up to six Pokémon and view detailed stats for each.
+- Client-Side Navigation: Used React Router to enable seamless page transitions.
+- State Management: Integrated Redux for efficient and scalable state handling.
+- Theme Toggle: Added dark and light mode support for an improved user experience.
 
 ---
 
-## Evaluation Criteria
 
-- **Code Quality**: We will evaluate your use of clean code practices, meaningful variable names, and comments where necessary.
-- **Responsiveness**: The app should work well on both mobile and desktop devices.
-- **Functionality**: Ensure that all required features work as expected.
-- **Best Practices**: We value the use of best practices in React development, such as proper naming, state management, and component organization.
-- **Testing**: Testing is a big part of modern development, so will value the use of testing in your solution.
-- **Creativity**: Feel free to add any additional features or enhance the design beyond the requirements.
-- **Willingness**: We want people who go the extra mile in everything they do.
+## Technologies Used
+- React – For building the user interface.
+- Redux – For state management.
+- Next.js – For server-side rendering and routing.
+- Tailwind CSS – For styling the application.
+- PokeAPI – For fetching Pokémon data.
+
+---
+
+## Instructions ans structure
+- **Pokémon Listing Page**: This is the home page of the Pokémon Explorer website.
+Users can search, sort, and filter Pokémon by type.
+Clicking on a Pokémon card displays detailed information, including graphical representation.
+Users can add Pokémon to their team from this page.
+- **Pokémon Search Page**: 
+Users can search for Pokémon by name or ID.
+- **Teams Page**: Users can manage their Pokémon teams.
+Pokémon can be removed from the team as needed.
+- **Login Page**: Standard login page using cache and local storage for session management.
+- **Register Page**: Standard registration page with cache and local storage support.
